@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "root": {
+    "ref": "o:1",
+    "type": "t:1"
+  },
+  "objects": {
+    "o:1": {
+      "barcode": "Blockchat.PiercerRevolver",
+      "title": "PiercerRevolver",
+      "description": "ahh",
+      "unlockable": false,
+      "redacted": false,
+      "author": "Blockchat",
+      "version": "1.0.0",
+      "sdkVersion": "0.3.6-1705",
+      "internal": false,
+      "crates": [
+        {
+          "ref": "o:2",
+          "type": "t:2"
+        }
+      ],
+      "tags": [],
+      "changelogs": [],
+      "isa": {
+        "type": "t:1"
+      }
+    },
+    "o:2": {
+      "barcode": "Blockchat.PiercerRevolver.Spawnable.CompleteRevolver",
+      "title": "Complete Revolver",
+      "description": "ahah",
+      "unlockable": false,
+      "redacted": false,
+      "mainAsset": "f3bd7411dd3d6be4dacb3486711906c9",
+      "tags": [],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "17cd1d057820fe447a59228a0fbf0ba7"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": -0.05115822,
+          "z": 0.004836276
+        },
+        "extents": {
+          "x": 0.05000089,
+          "y": 0.108959347,
+          "z": 0.248166144
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    }
+  },
+  "types": {
+    "t:1": {
+      "type": "t:1",
+      "fullname": "SLZ.Marrow.Warehouse.Pallet, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    "t:2": {
+      "type": "t:2",
+      "fullname": "SLZ.Marrow.Warehouse.SpawnableCrate, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  }
+}
